@@ -8,6 +8,7 @@ importers:
       '@suger-tdy/drivelist-osx': ^0.0.9
       '@suger-tdy/drivelist-windows': ^0.0.1
       '@suger-tdy/eslint-config': 1.1.7
+      '@types/yargs': ^17.0.10
       bumpp: 8.2.1
       esbuild: 0.14.49
       eslint: 8.19.0
@@ -17,13 +18,16 @@ importers:
       unbuild: 0.7.4
       vite: 2.9.14
       vitest: 0.18.0
+      yargs: ^17.5.1
     dependencies:
       '@suger-tdy/drivelist-linux': 0.0.3
       '@suger-tdy/drivelist-osx': 0.0.9
       '@suger-tdy/drivelist-windows': 0.0.1
       picocolors: 1.0.0
+      yargs: 17.5.1
     devDependencies:
       '@suger-tdy/eslint-config': 1.1.7_4x5o4skxv6sl53vpwefgt23khm
+      '@types/yargs': 17.0.10
       bumpp: 8.2.1
       esbuild: 0.14.49
       eslint: 8.19.0
@@ -591,6 +595,16 @@ packages:
 
   /@types/unist/2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
+    dev: true
+
+  /@types/yargs-parser/21.0.0:
+    resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
+    dev: true
+
+  /@types/yargs/17.0.10:
+    resolution: {integrity: sha512-gmEaFwpj/7f/ROdtIlci1R1VYU1J4j95m8T+Tj3iBgiBFKg1foE/PSl93bBd5T9LDXNPo8UlNN6W0qwD8O5OaA==}
+    dependencies:
+      '@types/yargs-parser': 21.0.0
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.30.5_6zdoc3rn4mpiddqwhppni2mnnm:
