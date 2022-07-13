@@ -3,5 +3,5 @@ import { list } from '@'
 
 it('runs', async() => {
   const drivers = await list()
-  expect(drivers).toMatchInlineSnapshot()
+  expect(drivers.length).toBeGreaterThan(0)
 })
