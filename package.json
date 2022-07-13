@@ -45,6 +45,9 @@
   },
   "homepage": "https://github.com/tangdaoyuan/drivelist-all#readme",
   "dependencies": {
+    "@suger-tdy/drivelist-linux": "^0.0.3",
+    "@suger-tdy/drivelist-osx": "^0.0.9",
+    "@suger-tdy/drivelist-windows": "^0.0.1",
     "picocolors": "^1.0.0"
   },
   "devDependencies": {
