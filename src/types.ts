@@ -1,9 +1,9 @@
-interface Mountpoint {
+export interface Mountpoint {
   path: string
   label: string | null
 }
 
-interface Drive {
+export interface Drive {
   blockSize: number
   busType: string
   busVersion: null
@@ -27,8 +27,6 @@ interface Drive {
   partitionTableType: 'mbr' | 'gpt' | null
 }
 
-interface DriveListModule {
+export interface DriveListModule {
   list: (debug?: boolean) => Promise<Drive[]>
 }
-
-export { DriveListModule }
