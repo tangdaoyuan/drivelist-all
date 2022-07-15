@@ -1,5 +1,8 @@
 import os from 'os'
+import module from 'module'
 import type { DriveListModule } from './types'
+
+const dynamicReq = module.createRequire ? module.createRequire(import.meta.url) : require
 
 const PLATFORM = {
   linux: 'linux',
@@ -12,23 +15,15 @@ const plat = os.platform()
 let drivelist: DriveListModule
 
 async function importModule() {
-  const m = await import(`@suger-tdy/drivelist-${PLATFORM[plat]}`)
+  const m = await dynamicReq(`@suger-tdy/drivelist-${PLATFORM[plat]}`)
   drivelist = m
 }
 
 export async function list() {
-  const plat = os.platform()
-
   if (!drivelist)
     await importModule()
 
-  if (plat === 'linux')
-    return await drivelist.list()
-
-  else if (plat === 'win32')
-    return await drivelist.list()
-
-  else if (plat === 'darwin')
+  if (PLATFORM[plat])
     return await drivelist.list()
 
   throw new Error(`Unsupported platform: ${plat}`)
