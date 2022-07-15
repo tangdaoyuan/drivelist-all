@@ -50,8 +50,8 @@
   "homepage": "https://github.com/tangdaoyuan/drivelist-all#readme",
   "dependencies": {
     "@suger-tdy/drivelist-linux": "^0.0.4",
-    "@suger-tdy/drivelist-osx": "^0.0.10",
-    "@suger-tdy/drivelist-windows": "^0.0.2",
+    "@suger-tdy/drivelist-osx": "^0.0.11",
+    "@suger-tdy/drivelist-windows": "^0.0.3",
     "picocolors": "^1.0.0",
     "yargs": "^17.5.1"
   },
@@ -61,11 +61,10 @@
     "bumpp": "8.2.1",
     "esbuild": "0.14.49",
     "eslint": "8.19.0",
-    "node-gyp": "^9.1.0",
-    "tsx": "3.7.1",
+    "tsx": "3.8.0",
     "typescript": "4.7.4",
     "unbuild": "0.7.4",
-    "vite": "2.9.14",
+    "vite": "3.0.0",
     "vitest": "0.18.0"
   },
   "publishConfig": {
