@@ -50,8 +50,8 @@
   "homepage": "https://github.com/tangdaoyuan/drivelist-all#readme",
   "dependencies": {
     "@suger-tdy/drivelist-linux": "^0.0.5",
-    "@suger-tdy/drivelist-osx": "^0.0.11",
-    "@suger-tdy/drivelist-windows": "^0.0.3",
+    "@suger-tdy/drivelist-osx": "^0.0.12",
+    "@suger-tdy/drivelist-windows": "^0.0.5",
     "picocolors": "^1.0.0",
     "yargs": "^17.5.1"
   },
