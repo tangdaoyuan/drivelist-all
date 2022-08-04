@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@suger-tdy/drivelist-linux': ^0.0.5
       '@suger-tdy/drivelist-osx': ^0.0.16
-      '@suger-tdy/drivelist-windows': ^0.0.6
+      '@suger-tdy/drivelist-windows': ^0.0.7
       '@suger-tdy/eslint-config': 1.1.9
       '@types/yargs': ^17.0.10
       bumpp: 8.2.1
@@ -22,7 +22,7 @@ importers:
     dependencies:
       '@suger-tdy/drivelist-linux': 0.0.5
       '@suger-tdy/drivelist-osx': 0.0.16
-      '@suger-tdy/drivelist-windows': 0.0.6
+      '@suger-tdy/drivelist-windows': 0.0.7
       picocolors: 1.0.0
       yargs: 17.5.1
     devDependencies:
@@ -505,8 +505,8 @@ packages:
       yargs: 17.5.1
     dev: false
 
-  /@suger-tdy/drivelist-windows/0.0.6:
-    resolution: {integrity: sha512-BncvSMKiunCpPDc/dXBN3eMxbnCudCORoKotk8y5jHL8XC7IHFTLYeu9eQWmgzxJ43yTakS3C2M5EzgneHWWdg==}
+  /@suger-tdy/drivelist-windows/0.0.7:
+    resolution: {integrity: sha512-dl3ckdl5pL8ZiGKWlT+zPHGJ8C8bGhzesdDnnZEwUtykEjvjWXj4VbI4S9ktTjPwpFYRBCVtnRAY5MxFzQJsbw==}
     hasBin: true
     requiresBuild: true
     dependencies:

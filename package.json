@@ -51,7 +51,7 @@
   "dependencies": {
     "@suger-tdy/drivelist-linux": "^0.0.5",
     "@suger-tdy/drivelist-osx": "^0.0.16",
-    "@suger-tdy/drivelist-windows": "^0.0.6",
+    "@suger-tdy/drivelist-windows": "^0.0.7",
     "picocolors": "^1.0.0",
     "yargs": "^17.5.1"
   },
